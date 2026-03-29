@@ -1,0 +1,5 @@
+215：
+class Solution:
+    def findKthLargest(self, nums, k):
+        nums.sort(reverse=True)#排序
+        return nums[k-1]
